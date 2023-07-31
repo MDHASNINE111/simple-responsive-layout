@@ -1,0 +1,45 @@
+.container{
+    border: 2px solid salmon;
+    display: flex;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    border: 2px dashed salmon;
+    width: 50px;
+    height: 50px;
+}
+nav a{
+   
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+div{
+    margin: 5px;
+}
+.login-form-container{ 
+     display: flex; 
+     justify-content: center; 
+     /* border: 1px solid coral;  */
+   
+}
+
+ .login-form{ 
+    display: flex;
+flex-direction: column;
+width: 200px;
+/* border: 5px solid blueviolet; */
+ padding: 5px; 
+
+
+
+
+}
+.login-form input{
+    margin-top: 20px;
+    
+}
